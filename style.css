@@ -105,7 +105,6 @@ ul li {
     font-size: var(--fs-heading);
     font-weight: var(--fw-bold);
     color: var(--clr-white);
-    display: block;
     padding: 1.5rem 0;
 }
 

@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/productpreviewcard-JuX4f2p2p8))
-- Live Site URL: [Live Site URL](https://product-preview-card-one-rho.vercel.app/)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/nftpreviewcardcomponent-IABXe8-tWR)
+- Live Site URL: [Live Site URL](https://nft-preview-card-component-eight-pearl.vercel.app)
 
 
 ### Built with
