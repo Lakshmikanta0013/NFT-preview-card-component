@@ -11,7 +11,7 @@
 
     font-size: 62.5%;
     --fs-primary: 1.8rem;
-    --fs-heading: 3rem;
+    --fs-heading: 2.5rem;
     --fs-credit: 1.6rem;
     --fw-regular: 400;
     --fw-bold: 600;
@@ -25,6 +25,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -68,9 +70,10 @@ ul li {
     position: relative;
 }
 
-.image >img {
+.image img {
     width: 100%;
     height: auto;
+    display: block;
     border-radius: 1rem;
 }
 
@@ -88,21 +91,25 @@ ul li {
     display: unset;
     cursor: pointer;
 }
-.overlay img{
+
+.overlay a img{
+    width: 6.4rem;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.content h1 {
+.content .heading {
     font-size: var(--fs-heading);
     font-weight: var(--fw-bold);
     color: var(--clr-white);
-    padding: 1rem 0;
+    display: block;
+    padding: 1.5rem 0;
 }
 
-.content h1:hover {
+.content .heading:hover {
     color: var(--clr-hover);
     cursor: pointer;
 }
@@ -112,7 +119,9 @@ ul li {
     font-weight: var(--fw-regular);
     padding-bottom: 2rem;
 }
-
+.price{
+    padding-bottom: 1.5rem;
+}
 .price ul {
     padding: 0;
     display: flex;
@@ -149,6 +158,8 @@ ul li {
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    padding-top: 1rem;
+    border-top: 1px solid var(--clr-line);
 }
 
 .author img {
